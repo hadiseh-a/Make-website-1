@@ -59,7 +59,6 @@ article span:not(.more){
 }
 #explain{
     border: solid 1px gray;
-    width: 70rem;
     padding: 1rem;
     margin-top: 2rem;
     margin-left: 6rem;
