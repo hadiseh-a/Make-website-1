@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 header{
     border: solid 1px gray;
@@ -59,10 +60,18 @@ article span{
 footer{
     background-color: #757554;
     display: flex;
-    margin: 70px;
     padding: 70px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-[input]{
-   font-size: 70px;
+footer input{
+    font-size: large;
+    font-weight: bolder;
+    background-color: #C6A969;
+}
+footer .enjoy{
+    font-style: italic;
+    font-weight: bold;
+    background-color:coral;
+    padding: 10px;
+    border-radius: 10% 50%;
 }
