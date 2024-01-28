@@ -56,3 +56,13 @@ article span{
     padding: .5rem;
     border-radius: 50%;
 }
+footer{
+    background-color: #757554;
+    display: flex;
+    margin: 70px;
+    padding: 70px;
+    justify-content: space-around;
+}
+[input]{
+   font-size: 70px;
+}

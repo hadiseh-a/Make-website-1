@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 header{
     border: solid 1px gray;
@@ -59,9 +60,15 @@ article span:not(.more){
 table{
     margin: auto;
     border:1px black solid ;
+    width: 500px;
 }
 th,td{
     border:1px black solid ;
     text-align: center;
-    padding: 1em;
+    padding: 5px;
+}
+@media (max-width:500px){
+    table{
+        width:200px;
+    }
 }
