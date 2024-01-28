@@ -20,7 +20,7 @@ header{
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 2rem;
-    margin-top: 2rem;
+   margin: 2rem;
 }
 article{
     background-color: #E6A4B4;
@@ -60,7 +60,12 @@ article span:not(.more){
 #explain{
     border: solid 1px gray;
     padding: 1rem;
-    margin-top: 2rem;
-    margin-left: 6rem;
+    margin: auto;
     background-color: #FFF8E3;
+    display: flex;
+    align-items: center;
+}
+.text{
+    border-left: solid rgb(234,45,64) 2px;
+    padding: 1rem;
 }
